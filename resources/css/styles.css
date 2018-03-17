@@ -1,0 +1,23 @@
+body {
+    background-color: #383838;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.jumbotron {
+    background-image: url("/resources/images/homer_jumbotron.jpeg");
+    background-size: cover;
+}
+.speech-balloon {
+    visibility: hidden;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    background-color: white;
+    width: 100x;
+    border: 3px solid #000;
+    font-size: 30px;
+}
+.visible {
+    visibility: visible;
+}
